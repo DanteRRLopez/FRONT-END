@@ -1,0 +1,84 @@
+/*==========
+Estilos generales 
+==========*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #rgb(237,223,207);
+    padding: 20px;
+}
+
+/** ====== Estilos del contenedor div ======
+*/
+/* *div es un contenedor de bloque por defecto (display:block) */
+
+.contenedor{
+    background-color: #e0f7fa; /*Color de fondo*/
+    border: 2px solid #00acc1; /*Borde visible*/
+    padding: 15px; /*Espacio interno entre el borde y el contenido*/
+    margin-bottom: 15px; /*Espacio externo entre otros contenidos*/
+    border-radius: 8px; /*Bordes redondeados*/
+}
+
+
+/* *====== Box Model ======*/
+/* Aquí vamos a mostrar 4 partes del modelo de caja::
+    - Margen (margin): espacio fuera del borde.
+    - Borde (border): lìnea alrededor del padding y contenido.
+    - Relleno (padding): espacio entre el borde y el contenido.
+    - Contenido (content): es el texto o imagen que contiene la caja.
+    */
+
+    .caja{
+        width: 250px; /*Ancho del contenido*/
+        border: 2px solid #ff9800; /*Borde visible*/
+        padding: 20px; /*Espacio interno entre el borde y el contenido*/
+        margin: 25px; /*Espacio externo entre otros contenidos*/
+        background-color: #fff3e0; /*Color de fondo*/
+        border-radius: 8px; /*Bordes redondeados*/
+    }
+
+    /* * ====== Tamaño, posición y visualización ======*/
+    /*Tamaño fijo: width y height*/
+    .caja-pequeña{
+        width: 300px; /*Ancho fijo*/
+        height: 60px; /*Alto fijo*/
+        background-color: #c8e6c9; /*Color de fondo*/
+        border: 2px solid #4caf50; /*Borde visible*/
+        margin-bottom: 15px; /*Espacio externo entre otros contenidos*/
+        border-radius: 8px; /*Bordes redondeados*/
+        text-align: center; /*Centrar texto horizontalmente*/
+        line-height: 60px; /*Centrar texto verticalmente*/
+    }
+
+    /* Posición relativa: se mueve respecto a su posición original */
+    
+.caja-relativa{
+    position: relative; /*Posición relativa*/
+    top: 10px; /*Mover hacia abajo 10px*/
+    left: 20px; /*Mover hacia la derecha 20px*/
+    width: 500px; /*Ancho fijo*/
+    height: 60; /*Alto fijo*/
+    background-color: #bbdefb; /*Color de fondo*/
+    border: 2px solid #2196f3; /rde visible*/
+    margin-bottom: 15px; /*Espacio externo entre otros contenidos*/
+    border-radius: 8px; /*Bordes redondeados*/
+    text-align: center; /*Centrar texto horizontalmente*/
+    line-height: 60px; /*Centrar texto verticalmente*/
+}
+
+/* Visualización: inline-block permite que el elemento se comporte como un bloque pero en línea */
+.caja-inline{
+    display: inline-block; /*Visualización en línea como bloque*/
+    width: 300px; /*Ancho fijo*/
+    height: 50px; /*Alto fijo*/
+    background-color: #f8bbd0; /*Color de fondo*/
+    border: 2px solid #e91e63; /*Borde visible*/
+    margin: 5px; /*Espacio externo entre otros contenidos*/
+    border-radius: 8px; /*Bordes redondeados*/
+    text-align: center; /*Centrar texto horizontalmente*/
+    line-height: 60px; /*Centrar texto verticalmente*/
+}
+
+
+
